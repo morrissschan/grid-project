@@ -99,12 +99,35 @@
     <div class="container">
       
       <!-- grid -->
+            
 
       <!-- justin-part -->
       <div class="item-pic-j">
         <img src="./pic/1.png" id="pic-j" alt="">
       </div>
       
+      <!-- Modal -->
+      <div class="modal fade" id="jModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel" style="text-align:center;">金毛犬</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="item-animation-j">
+                <div>
+                  <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_tnjb8ios.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px; margin:0 auto;" autoplay loop ></lottie-player>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of the bootstrap modal -->
       <div class="item-info-j">
         <div>
           <h3 style="color:white;">金毛犬</h3>
@@ -112,6 +135,12 @@
           <p>
             金毛尋回犬很活躍，喜歡玩，但也出奇的耐心，可以靜靜地坐幾個小時不動，就好似打獵時在狩獵偽裝底下等獵物一樣。可能是打獵的遺傳特質，跳進跳出小船、游泳亦喜歡。
           </p>
+                    <!-- Button trigger modal -->
+                    <div class="d-grid gap-2 col-6 mx-auto">
+                      <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#jModal">
+                        點我🤪
+                      </button>
+                      </div>
         </div>
       </div>
 
