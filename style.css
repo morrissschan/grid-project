@@ -82,9 +82,11 @@
       scale: 80%;
       grid-area: 3 / 3 / 4 / 5; 
     }
+
     #pic-v:hover{
       transform:rotate(25deg);
     }
+    
     .item-info-v{
       grid-area: 3 / 8 / 4 / 11;
     }

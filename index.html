@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="./img/bone-favicon.ico" />
 
+    <!-- lottilefiles animation -->
+    <script defer src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
     <title>Dog Group</title>
     <!-- CSS only -->
     <link
@@ -123,16 +126,51 @@
 
       <!-- victor-part -->
       <div class="item-pic-v">
-        <img src="./pic/9.png" id="pic-v" alt="" />
+        <div >
+          <img src="./pic/9.png" id="pic-v" alt="" />
+        </div>
       </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel" style="text-align:center;">八哥犬</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="item-animation-v">
+                <div>
+                  <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_leshqG.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px; margin:0 auto;" hover loop ></lottie-player>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of the bootstrap modal -->
+
       <div class="item-info-v">
         <div>
           <h3>巴哥犬</h3>
           <img src="./img/talk.png" width="100%" alt="">
           <p>巴哥犬面黑，有很多褶皺，成年時身高大約25到28厘米，體重約為5至13公斤，壽命大約為12到15年。個性溫和。巴哥犬是優秀的家庭犬（house
               dog），在室內時不喜吠叫，警戒時低沉、響亮的吠叫聲，又足以使門外的陌生人誤以為是大型犬，而有警示的作用。</p>
+              
+          <!-- Button trigger modal -->
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              點我🤪
+            </button>
+          </div>
         </div>
       </div>
+
+
 
       <!-- yui-part -->
       <div class="item-pic-y">
