@@ -61,12 +61,12 @@
     .item-info-j div{
       position: relative;
     }
-
+/* 
     .item-info-j div h3{
       position: absolute;
       top: 7.5%;
       left: 25%;
-    }
+    } */
 
 
      /* morris-part  */
@@ -84,12 +84,12 @@
     .item-info-m div{
       position: relative;
     }
-
+/* 
     .item-info-m div h3{
       position: absolute;
       top: 7.5%;
       left: 25%;
-    }
+    } */
 
      /* victor-part  */
      .item-pic-v{
@@ -108,13 +108,13 @@
     .item-info-v div{
       position: relative;
     }
-
+/* 
     .item-info-v div h3{
       position: absolute;
       top: 7.5%;
       left: 25%;
     }
-
+ */
      /* yui-part  */
      .item-pic-y{
       scale: 80%;
@@ -131,10 +131,20 @@
     .item-info-y div{
       position: relative;
     }
-
+/* 
     .item-info-y div h3{
       position: absolute;
       top: 7.5%;
       left: 25%;
     }
-    
+     */
+
+/* centring the all the dog name into the img */
+    .title h3 {
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      translate: -50% -50%;
+      text-align: center;
+}
