@@ -56,6 +56,16 @@
       grid-area: 1 / 8 / 2 / 11;
     }
 
+    .item-info-j div{
+      position: relative;
+    }
+
+    .item-info-j div h3{
+      position: absolute;
+      top: 7.5%;
+      left: 25%;
+    }
+
     .t-j{
       font-size: 20px;
       color: #DB7654;
@@ -77,16 +87,38 @@
       grid-area: 2 / 8 / 3 / 11; 
     }
 
+    .item-info-m div{
+      position: relative;
+    }
+
+    .item-info-m div h3{
+      position: absolute;
+      top: 7.5%;
+      left: 25%;
+    }
+
      /* victor-part  */
      .item-pic-v{
       scale: 80%;
       grid-area: 3 / 3 / 4 / 5; 
     }
+
     #pic-v:hover{
       transform:rotate(25deg);
     }
+
     .item-info-v{
       grid-area: 3 / 8 / 4 / 11;
+    }
+
+    .item-info-v div{
+      position: relative;
+    }
+
+    .item-info-v div h3{
+      position: absolute;
+      top: 7.5%;
+      left: 25%;
     }
 
      /* yui-part  */
@@ -102,4 +134,13 @@
       
     }
 
+    .item-info-y div{
+      position: relative;
+    }
+
+    .item-info-y div h3{
+      position: absolute;
+      top: 7.5%;
+      left: 25%;
+    }
     
